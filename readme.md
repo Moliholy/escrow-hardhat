@@ -18,6 +18,12 @@ After you have installed hardhat locally, you can use commands to test and compi
 
 Compile the contracts using `npx hardhat compile`. The artifacts will be placed in the `/app` folder, which will make it available to the front-end. This path configuration can be found in the `hardhat.config.js` file.
 
+
+## Deploy the factory contract
+
+Finally, deploy the factory contract with `npm run deloy:local`. This will deploy a new instance of the `EscrowFactory` contract.
+
+
 ## Front-End
 
 `cd` into the `/app` directory and run `npm install`
